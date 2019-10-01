@@ -1,0 +1,21 @@
+{
+	"name": "schplan",
+	"version": "0.1.0",
+	"description": "Shift plan management for small to medium teams",
+	"main": "index.js",
+	"scripts": {
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@github.com/ght/schplan.git"
+	},
+	"author": [
+		"Christian Cavasin <anluin@gmx.de>",
+		"Galdor Takacs <galdor.takacs@rub.de>"
+	],
+	"license": "AGPL-3.0-only",
+	"bugs": {
+		"url": "https://github.com/ght/schplan/issues"
+	},
+	"homepage": "https://github.com/ght/schplan#readme"
+}
