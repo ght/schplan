@@ -41,6 +41,6 @@ module.exports = {
 			contentBase: './dist',
 			open: false,
 		}),
-		livereload({ watch: './src' }),
+		livereload({ watch: './dist' }),
 	]),
 };
