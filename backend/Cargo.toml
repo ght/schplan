@@ -11,6 +11,7 @@ rocket = "0.4.2"
 dotenv = "0.14.1"
 serde_json = "1.0"
 diesel_migrations = "1.4.0"
+rand = "0.7.2"
 
 [dependencies.serde]
 version = "1.0"
@@ -23,4 +24,8 @@ features = ["sqlite"]
 [dependencies.rocket_contrib]
 version = "0.4.2"
 default-features = false
-features = ["diesel_sqlite_pool", "json"]
+features = ["diesel_sqlite_pool", "json", "serve"]
+
+[dependencies.scrypt]
+version = "0.2"
+features = ["include_simple"]

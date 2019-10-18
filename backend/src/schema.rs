@@ -1,7 +1,9 @@
 table! {
     users (id) {
         id -> Nullable<Integer>,
-        first_name -> Text,
-        last_name -> Text,
+        token -> Nullable<Text>,
+        ip -> Nullable<Text>,
+        username -> Text,
+        password -> Text,
     }
 }

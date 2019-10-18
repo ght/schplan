@@ -1,2 +1,10 @@
 [global.databases]
 sqlite = { url = "storage/database.sqlite" }
+
+[global.limits]
+json = 5242880
+
+[development]
+address = "0.0.0.0"
+port = 8000
+crate_admin_user = true
